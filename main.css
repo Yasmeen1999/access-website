@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .container{
@@ -47,6 +48,28 @@ ul li a{
     transform: translate(-50%);
      border-radius: 5px;
 
+}
+.column{
+    float: left;
+    padding: 10px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+h2{
+    color: white;
+    margin-top: 100px;
+    margin-left: 30px;
+    font-size: 30px;
+
+}
+
+.person{
+    width: 500px;
+    position: fixed;
+    right: 20px;
 }
 
 
