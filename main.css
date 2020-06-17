@@ -60,16 +60,31 @@ ul li a{
 }
 h2{
     color: white;
-    margin-top: 100px;
-    margin-left: 30px;
+    margin-top: 150px;
+    margin-left: 80px;
     font-size: 30px;
 
+}
+.column button{
+    background-color:  rgb(199, 117, 24);;
+    padding: 8px;
+    border-radius:8px ;
+    border: 1px solid rgb(194, 115, 25);
+    text-decoration: none;
+    margin-left: 80px;
+    margin-top: 30px;
+    width: 100px;
+    
+}
+.column button a{
+    color: white;
+    text-decoration: none;
 }
 
 .person{
     width: 500px;
     position: fixed;
-    right: 20px;
+    right: 50px;
 }
 
 
